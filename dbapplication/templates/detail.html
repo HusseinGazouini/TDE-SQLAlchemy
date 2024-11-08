@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Index{% endblock %}
+
+{% block content %}
+
+<h1>Person {{person.pid}}</h1>
+
+<p>Nome: {{ person.name }}</p>
+<p>Idade: {{ person.age }}</p>
+<p>Trabalho: {{ person.job }}</p>
+
+{% endblock %}
